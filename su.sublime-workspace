@@ -1,0 +1,300 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ses",
+				"session_start"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"l",
+				"li	Tag"
+			],
+			[
+				"va",
+				"VariableB"
+			],
+			[
+				"ti",
+				"title	Tag"
+			],
+			[
+				"t",
+				"tiempo"
+			],
+			[
+				"mi",
+				"minuto"
+			],
+			[
+				"segu",
+				"segundo"
+			],
+			[
+				"come",
+				"Comenzar"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"ta",
+				"table"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "su.sublime-project",
+			"settings":
+			{
+				"buffer_size": 45,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/xampp/htdocs/Cozcyt"
+	],
+	"file_history":
+	[
+		"/C/xampp/htdocs/zigzag/resources/views/welcome.blade.php",
+		"/C/xampp/htdocs/base/pagina.php",
+		"/C/xampp/htdocs/base/inicio.php",
+		"/C/xampp/htdocs/php/ejemplo/head.php",
+		"/C/Users/Efrain/Pictures/proyectt/arreglos (1).php",
+		"/C/xampp/htdocs/php/ejemplo/hola.php",
+		"/C/xampp/htdocs/menu2/muestra_cliente.php",
+		"/C/Users/Efrain/Pictures/proyectt/arreglos.php",
+		"/C/xampp/htdocs/php/ejemplo/matriz.php",
+		"/C/xampp/htdocs/php/ejemplo/variables.php",
+		"/C/xampp/htdocs/php/ejemplo/idiomas/ger.php",
+		"/C/xampp/htdocs/php/ejemplo/idiomas/en.php",
+		"/C/xampp/htdocs/php/ejemplo/idiomas/es.php",
+		"/C/xampp/htdocs/boolstrop/principal.php",
+		"/C/xampp/htdocs/reloj/index.html",
+		"/C/xampp/htdocs/boolstrop/formularios_tarea.html",
+		"/C/xampp/htdocs/boolstrop/head_inc.php",
+		"/C/xampp/htdocs/boolstrop/plugintable.js",
+		"/C/xampp/htdocs/boolstrop/menu.php",
+		"/C/xampp/htdocs/boolstrop/ejercicio.html",
+		"/C/xampp/htdocs/javascr/validar.php",
+		"/C/xampp/htdocs/javascr/js/validarr.js",
+		"/C/xampp/htdocs/javascr/validarr.js",
+		"/C/xampp/htdocs/javascr/menu.html",
+		"/C/xampp/htdocs/javascr/cabeza.html",
+		"/C/xampp/htdocs/formulario/formulario1.html",
+		"/C/xampp/htdocs/javasc/validar.php",
+		"/C/xampp/htdocs/javasc/cabeza.html",
+		"/C/xampp/htdocs/javasc/menu.html",
+		"/C/xampp/htdocs/test2/menu.html",
+		"/C/xampp/htdocs/test2/head.html",
+		"/C/xampp/htdocs/test2/registrar.php",
+		"/C/xampp/htdocs/javascript/js/estructura-for.js",
+		"/C/xampp/htdocs/javascript/tablafoor.js",
+		"/C/xampp/htdocs/javascript/tablafor.html",
+		"/C/xampp/htdocs/javascript/estructurafor.html",
+		"/C/xampp/htdocs/javascript/js/estructura-if.js",
+		"/C/xampp/htdocs/javascript/estructuraif.html",
+		"/C/xampp/htdocs/javascript/estructura-if.js",
+		"/C/xampp/htdocs/test/menu.html",
+		"/C/xampp/htdocs/test/index.php",
+		"/C/xampp/htdocs/test/Ingresar.php",
+		"/C/xampp/htdocs/test/testapti.php",
+		"/C/xampp/htdocs/test/test2.php",
+		"/C/xampp/htdocs/test/test1.php",
+		"/E/boolstrop/formularios_tarea.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			">\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "su.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 45,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								34,
+								34
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "su.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

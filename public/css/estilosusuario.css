@@ -1,0 +1,28 @@
+th {
+	text-align: center;
+	color:black;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+.btn-warning {
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+td{
+	color:black;
+}
+h1{
+	color:black;
+}
+.btn-info {
+   
+    border-color: #2F752C !important;
+}
+ .pagination>.active>span{
+ 	background-color: #2F752C;
+    border-color: #2F752C;
+ }

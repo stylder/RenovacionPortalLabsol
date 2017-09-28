@@ -1,0 +1,20 @@
+.esad{
+    
+    margin-top: 5%;
+    margin-left: 40%
+  
+}
+.form-ad{
+    
+    width: 30%;
+    }
+.btn {
+    background-color: #2F752C;
+    color: #fff;
+    border-radius: 5px;
+    border-color: #2F752C;
+    transition: .2s;
+}
+body{
+	font-family: Montserrat, sans-serif;
+}

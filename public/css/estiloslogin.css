@@ -1,0 +1,41 @@
+
+body {
+	 background-image: url(../img/fondo.jpg);
+	   background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 30% 100%;
+  background-color:#fff;
+  -webkit-font-smoothing: antialiased;
+      font-family: Montserrat, sans-serif;
+}
+
+.holi{
+  background-color: #2F752C;
+  border-radius: 5px;
+  margin-bottom: 3%;
+}
+.panel-primary>.panel-heading {
+    color: #fff;
+    background-color: #2F752C;
+   
+}
+.btn{
+  
+}
+H1{
+	color: #fff;
+
+}
+.panel-primary {
+    border-color: #2F752C;
+}
+.btn {
+    background-color: #2F752C;
+    color: #fff;
+    border-radius: 1;
+    border-color: #2F752C;
+    transition: .2s;
+}
+.logo {
+    margin-top: 1%;
+}
