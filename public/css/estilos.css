@@ -209,7 +209,7 @@ em {
 }
 
 .dropdown-menu li a:hover {
-    background-color: red !important;
+    background-color: #b1b2b1 !important;
 }
 
 .navbar-nav > li > .dropdown-menu {
@@ -784,6 +784,19 @@ body {
     font-size: 16px;
     font-family: "Open Sans";
 }
+
+.navbar-nav>li>a:hover{
+    font-size: 18px;
+    font-family: "Open Sans";
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    -webkit-box-shadow: 3px 3px 0 rgba(201, 201, 201, 1);
+    -moz-box-shadow: 3px 3px 0 rgba(201, 201, 201, 1);
+    box-shadow: 3px 3px 0 rgba(201, 201, 201, 1);
+    color:#fff;
+}
+
 
 .carousel-control.right {
     right: 0;

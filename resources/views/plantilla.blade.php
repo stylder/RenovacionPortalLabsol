@@ -91,7 +91,7 @@
                                 </li>
 
 
-                                <li class="dropdown active">
+                                <li class="dropdown">
                                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">COZCyT
                                         <span class="caret"></span></a>
                                     <ul class="dropdown-menu">
@@ -102,9 +102,9 @@
                                         <li><a href="{{asset('doc/PECITI.pdf')}}" target="_blank">PECITI</a></li>
                                         <li><a href="{{asset('doc/MANUAL DE ORGANIZACION 2014.pdf')}}" target="_blank">Normatividad</a>
                                         </li>
-                                        <li><a href="{{url('publicacionCecodic')}}">Publicaciones</a></li>
+                                        {{--<li><a href="{{url('publicacionCecodic')}}">Publicaciones</a></li>
 
-                                        <li><a href="{{url('publicacionesCozcyt')}}">Publicaciones</a></li>
+                                        <li><a href="{{url('publicacionesCozcyt')}}">Publicaciones</a></li>--}}
                                     </ul>
                                 </li>
 
@@ -169,34 +169,87 @@
             <div class="row foot">
 
 
+
+
                 <footer class="text-center">
                     <div class="col-xs-12">
                         <ul class="social-network social-circle">
                             <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
                             <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a>
-                            </li>
-                            <li><a href="#" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a>
-                            </li>
+                            <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="#" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a></li>
                             <li><a href="#" class="icoYelp" title="Yelp"><i class="fa fa-yelp"></i></a></li>
                         </ul>
                     </div>
                     <div class="pre-footer" id="contact">
-                        <div class="container">
-                            <div class="row">
-                                <h2 class="text-center">Contacto</h2>
+                        <div class="row">
+                            <div class="col-xs-12 col-md-4">
+
+                                <img src="{{asset('img/logofooter.png')}}" class="img-responsive" alt="Responsive image">
+
+                            </div>
+                            <div class="col-xs-12 col-md-4">
+                                <div class="row">
+                                    <p align="center col-xs-12">Teléfonos</p>
+                                    <div class="col-xs-6">
+
+                                        <ul>
+                                            <p align="left">922 30 05</p>
+                                            <p align="left">922 53 50</p>
+
+
+                                            <p align="left">911</p>
+                                            <p align="left">089</p>
+                                        </ul>
+                                    </div>
+                                    <div class="col-xs-6">
+                                        <ul>
+
+                                            <p align="left">Cruz Roja Mexicana</p>
+                                            <p align="left">Bomberos</p>
+
+
+                                            <p align="left">Emergencias</p>
+                                            <p align="left">Denuncia Anónima</p>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
 
-                            <div class="row">
-                                <p class="text-center">
-                                    Consejo Zacatecano de Ciencia, Tecnología e Innovación
-                                    <br><br><span class="glyphicon glyphicon-home"></span> De la
-                                    Juventud 504, Col. Barros Sierra
-                                    <br><br><span class="glyphicon glyphicon-globe"></span> C.P.
-                                    98090 Zacatecas, Zac.
-                                    <br><br><span class="glyphicon glyphicon-earphone"></span>
-                                    921 2816 y 921 3018
-                                </p>
+                            <div class="col-xs-12 col-md-4">
+                                <p class="text-center">Contacto</p>
+
+                                <span class="glyphicon glyphicon-home"> De la Juventud 504, Col. Barros Sierra</span>
+
+
+
+                                <br>
+
+                                <span class="glyphicon glyphicon-globe"> C.P. 98090 Zacatecas, Zac</span>
+                                <br>
+                                <span class="glyphicon glyphicon-earphone"> 921 28 16 y 921 30 18</span>
+
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+
+                                <center><a  title="Contador De Visitas Gratis">
+                                        <img style="border: 0px solid; display: inline;" alt="contador de visitas" src="http://www.websmultimedia.com/contador-de-visitas.php?id=235127"></a>
+                                    <br><a>Visitas</a></center><br>
+
+
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="up-arrow">
+                                <div class="col-xs-3">
+                                    <p>Licencia GPL 3.0 y Creative Commons</p>
+                                </div>
+                                <div class="col-xs-1">
+                                    <img src="{{asset('img/labsol.png')}}" class="img-responsive" alt="Responsive image">
+                                </div>
                             </div>
                         </div>
 
