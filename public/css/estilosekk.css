@@ -65,7 +65,7 @@
     text-transform: capitalize;
 }
 .w3agile_Projects_grid figcaption p {
-    font-family: 'Open sans';
+
     line-height: 1.8em;
     text-align: center;
     padding: 0px 20px;
@@ -88,6 +88,4 @@
 .w3agile_Projects_grid figure:hover h4,.w3agile_Projects_grid figure:hover p {
     left: 0;
 }
-body{
-   font-family: Montserrat, sans-serif;
-}
+

@@ -201,12 +201,12 @@
                         		<li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
                         		<li><a href="#" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a></li>
                         		<li><a href="#" class="icoYelp" title="Yelp"><i class="fa fa-yelp"></i></a></li>
-                    		</ul>				
-						</div>           	
+                    		</ul>
+						</div>
 						<div class="pre-footer" id="contact">
  							<div class="row">
 		           					<div class="col-xs-12 col-md-4">
-		           						
+
 		    	   						<img src="{{asset('img/logofooter.png')}}" class="img-responsive" alt="Responsive image">
 
 		          					</div>
@@ -214,7 +214,7 @@
 		         					<div class="row">
 		         					<p align="center col-xs-12">Teléfonos</p>
 		             					<div class="col-xs-6">
-									    
+
 										<ul>
 											<p align="left">922 30 05</p>
 											<p align="left">922 53 50</p>
@@ -227,7 +227,7 @@
 									</div>
 									<div class="col-xs-6">
 										<ul>
-											
+
 											<p align="left">Cruz Roja Mexicana</p>
 											<p align="left">Bomberos</p>
 											<p align="left">Policía Estatal Preventiva</p>
@@ -239,16 +239,16 @@
 									</div>
 									</div>
 		             				</div>
-             				
+
 		             				<div class="col-xs-12 col-md-4">
-		           					<p class="text-center">Contacto</p> 
-					      
+		           					<p class="text-center">Contacto</p>
+
 					      			<span class="glyphicon glyphicon-home"> De la Juventud 504, Col. Barros Sierra</span>
-					         
-					     			
-					   
+
+
+
 					      			<br>
-					      
+
 					      			<span class="glyphicon glyphicon-globe"> C.P. 98090 Zacatecas, Zac</span>
 									<br>
 					     				<span class="glyphicon glyphicon-earphone"> 921 2816 y 921 3018</span>
@@ -256,7 +256,7 @@
 					     				<br>
 					     				<br>
 					     				<br>
-					     				<br>	
+					     				<br>
 
 					     				<center><a  title="Contador De Visitas Gratis">
 										<img style="border: 0px solid; display: inline;" alt="contador de visitas" src="http://www.websmultimedia.com/contador-de-visitas.php?id=235127"></a>
@@ -276,9 +276,9 @@
         						</div>
         					</div>
 
-							
+
            				</div>
-           
+
       					</footer>
         
       

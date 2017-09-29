@@ -1,4 +1,4 @@
-@extends('transparencia.plantillatransparencia')
+@extends('plantilla')
 
 @section('title','Publicaciones')
 

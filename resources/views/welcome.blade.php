@@ -9,6 +9,7 @@
 
 @endsection
 @section('contenido')
+    <br>
     <div class="row">
         <div class=" col-md-12 ">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -43,14 +44,14 @@
                     }
                     ?>
 
-
-                    <a href="{{asset('publicaciones/' .$slid->url)}}">
-                        <img src="{{asset('storage/' . $slid->imagen)}}" alt="Imagen">
-                    </a>
                     <div class="carousel-caption">
                         <h3></h3>
                         <p></p>
                     </div>
+
+                    <a href="{{asset('publicaciones/' .$slid->url)}}">
+                        <img class="img-responsive" src="{{asset('storage/' . $slid->imagen)}}" alt="Imagen">
+                    </a>
                 </div>
 
                 <?php }?>
@@ -75,7 +76,8 @@
 
             <!----start-img-cursual---->
             <div id="owl-demo" class="owl-carousel text-center">
-                <div class="item"><a href="{{url('doc/becas.pdf')}}">
+                <div class="item">
+                    <a href="{{url('doc/becas.pdf')}}">
                         <div class="cau_left" align="center">
                             <img class="lazyOwl" data-src="{{asset('img/BECAS1.png')}}" alt="Lazy Owl Image">
                         </div>
@@ -202,34 +204,20 @@
 
 
             <div class="row ">
-
-
                 @foreach($publicacion as $publica)
-
                     <div class="col-md-4">
                         <div class="panel panel-default">
                             <div class="panel-body">
-                                <a href="{{asset('publicaciones/' .$publica->url)}}" class="thumbnail">
-
-
-                                    <img class="  mediana" src="{{asset('storage/' . $publica->imagen)}}" alt="...">
-
-
-                                </a>
                                 <h3 class="text-center"> {{ $publica->title}}</h3>
                                 <hr>
-
-
+                                <a href="{{asset('publicaciones/' .$publica->url)}}" class="thumbnail">
+                                    <img class="  mediana" src="{{asset('storage/' . $publica->imagen)}}" alt="...">
+                                </a>
                             </div>
                         </div>
                     </div>
-
                 @endforeach
-
-
             </div>
-
-
         </div>
 
 

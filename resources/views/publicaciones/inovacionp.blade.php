@@ -1,4 +1,5 @@
-@extends('publicaciones.plantilla')
+@extends('plantilla')
+
 
 @section('title','Publicaciones Innovacion | COZCyT')
 

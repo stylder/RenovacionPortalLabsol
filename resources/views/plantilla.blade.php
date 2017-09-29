@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,8 +12,10 @@
     <link rel="shortcut icon" href="{{ asset('img/icon.png') }}">
     <title>@yield('title')</title>
 
+    <!-- Fonts START -->
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Pathway+Gothic+One|PT+Sans+Narrow:400+700|Source+Sans+Pro:200,300,400,600,700,900&amp;subset=all"
           rel="stylesheet" type="text/css">
+    <!-- Fonts START -->
 
     <!-- Bootstrap -->
     <link href="{{asset('bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
@@ -21,6 +23,8 @@
     <link href="{{asset('css/carousel.css')}}" rel="stylesheet">
     <link href="{{asset('css/estilosbanner.css')}}" rel="stylesheet">
     <link href="{{asset('css/estilosekk.css')}}" rel="stylesheet">
+
+    <link href="{{asset('assets/santiago/styles.css')}}" rel="stylesheet">
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css">
     <!-- <link rel="stylesheet" href="css/font-awesome.css">-->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
@@ -37,8 +41,10 @@
             <!-- Encabezado -->
             <div class="row">
                 <div class="col-sm-4 img-responsive" alt="Responsive image">
-                    <a href="{{asset('Inicio')}}"><img src="{{asset('img/logo_cozcyt.png')}}" class="img-responsive"
-                                                       alt="Responsive image"></a>
+                    <a href="{{asset('Inicio')}}">
+                        <img src="{{asset('img/logo_cozcyt.png')}}"
+                             class="img-responsive" alt="Responsive image">
+                    </a>
                 </div>
                 <div class="col-xs-offset-5 col-xs-3 img-responsive logo" alt="Responsive image">
                     <img src="{{asset('img/banner-colores-transp.png')}}" class="img-responsive" alt="Responsive image">
@@ -59,8 +65,6 @@
                         })();
                     </script>
                     <gcse:search></gcse:search>
-
-
                 </div>
                 <div class="col-md-1">
                     <a class=" btn btn-default" href="mailto:contacto@cozcyt.gob.mx " target="_blank"> Contacto</a>
@@ -80,6 +84,11 @@
                         </button>
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav">
+
+                                <li class="dropdown">
+                                    <a  href="/Inicio">Inicio
+                                    </a>
+                                </li>
 
 
                                 <li class="dropdown active">
@@ -158,6 +167,8 @@
 
         <!-- Footer-->
             <div class="row foot">
+
+
                 <footer class="text-center">
                     <div class="col-xs-12">
                         <ul class="social-network social-circle">
@@ -171,76 +182,21 @@
                         </ul>
                     </div>
                     <div class="pre-footer" id="contact">
-                        <div class="row">
-                            <div class="col-xs-12 col-md-4">
-
-                                <img src="{{asset('img/logofooter.png')}}" class="img-responsive"
-                                     alt="Responsive image">
-
-                            </div>
-                            <div class="col-xs-12 col-md-4">
-                                <div class="row">
-                                    <p align="center col-xs-12">Teléfonos</p>
-                                    <div class="col-xs-6">
-
-                                        <ul>
-                                            <p align="left">922 30 05</p>
-                                            <p align="left">922 53 50</p>
-
-
-                                            <p align="left">911</p>
-                                            <p align="left">089</p>
-                                        </ul>
-                                    </div>
-                                    <div class="col-xs-6">
-                                        <ul>
-
-                                            <p align="left">Cruz Roja Mexicana</p>
-                                            <p align="left">Bomberos</p>
-
-
-                                            <p align="left">Emergencias</p>
-                                            <p align="left">Denuncia Anónima</p>
-                                        </ul>
-                                    </div>
-                                </div>
+                        <div class="container">
+                            <div class="row">
+                                <h2 class="text-center">Contacto</h2>
                             </div>
 
-                            <div class="col-xs-12 col-md-4">
-                                <p class="text-center">Contacto</p>
-
-                                <span class="glyphicon glyphicon-home"> De la Juventud 504, Col. Barros Sierra</span>
-
-
-                                <br>
-
-                                <span class="glyphicon glyphicon-globe"> C.P. 98090 Zacatecas, Zac</span>
-                                <br>
-                                <span class="glyphicon glyphicon-earphone"> 921 28 16 y 921 30 18</span>
-
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-
-                                <center><a title="Contador De Visitas Gratis">
-                                        <img style="border: 0px solid; display: inline;" alt="contador de visitas"
-                                             src="http://www.websmultimedia.com/contador-de-visitas.php?id=235127"></a>
-                                    <br><a>Visitas</a></center>
-                                <br>
-
-
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="up-arrow">
-                                <div class="col-xs-3">
-                                    <p>Licencia GPL 3.0 y Creative Commons</p>
-                                </div>
-                                <div class="col-xs-1">
-                                    <img src="{{asset('img/labsol.png')}}" class="img-responsive"
-                                         alt="Responsive image">
-                                </div>
+                            <div class="row">
+                                <p class="text-center">
+                                    Consejo Zacatecano de Ciencia, Tecnología e Innovación
+                                    <br><br><span class="glyphicon glyphicon-home"></span> De la
+                                    Juventud 504, Col. Barros Sierra
+                                    <br><br><span class="glyphicon glyphicon-globe"></span> C.P.
+                                    98090 Zacatecas, Zac.
+                                    <br><br><span class="glyphicon glyphicon-earphone"></span>
+                                    921 2816 y 921 3018
+                                </p>
                             </div>
                         </div>
 
@@ -264,5 +220,6 @@
 <script src="{{asset('js/principal.js')}}"></script>
 <script src="{{asset('js/carousel.js')}}"></script>
 <script src="{{asset('js/apimaps.js')}}"></script>
+<script src="{{asset('assets/santiago/scripts.js')}}"></script>
 </body>
 </html>
