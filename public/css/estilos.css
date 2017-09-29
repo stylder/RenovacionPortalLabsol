@@ -208,7 +208,7 @@ em {
     color: #2F752C !important;
 }
 
-.dropdown-menu li a:hover {
+a:hover {
     background-color: #b1b2b1 !important;
 }
 
@@ -791,10 +791,11 @@ body {
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0px;
-    -webkit-box-shadow: 3px 3px 0 rgba(201, 201, 201, 1);
-    -moz-box-shadow: 3px 3px 0 rgba(201, 201, 201, 1);
-    box-shadow: 3px 3px 0 rgba(201, 201, 201, 1);
-    color:#fff;
+    background-color: #ffffff !important;
+    -webkit-box-shadow: 3px 3px 0 rgb(255, 255, 255);
+    -moz-box-shadow: 3px 3px 0 rgb(249, 249, 249);
+    box-shadow: 3px 3px 0 rgb(218, 218, 218);
+    color: #01c928 !important;
 }
 
 

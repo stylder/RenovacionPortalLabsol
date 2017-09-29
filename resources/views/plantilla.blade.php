@@ -219,15 +219,12 @@
                             <div class="col-xs-12 col-md-4">
                                 <p class="text-center">Contacto</p>
 
-                                <span class="glyphicon glyphicon-home"> De la Juventud 504, Col. Barros Sierra</span>
-
-
-
+                                <span class="glyphicon glyphicon-home"></span> &nbsp;De la Juventud 504, Col. Barros Sierra
                                 <br>
 
-                                <span class="glyphicon glyphicon-globe"> C.P. 98090 Zacatecas, Zac</span>
+                                <span class="glyphicon glyphicon-globe"></span>&nbsp; C.P. 98090 Zacatecas, Zac
                                 <br>
-                                <span class="glyphicon glyphicon-earphone"> 921 28 16 y 921 30 18</span>
+                                <span class="glyphicon glyphicon-earphone"></span>&nbsp; 921 28 16 y 921 30 18
 
                                 <br>
                                 <br>
