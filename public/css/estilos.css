@@ -795,7 +795,12 @@ body {
     -webkit-box-shadow: 3px 3px 0 rgb(255, 255, 255);
     -moz-box-shadow: 3px 3px 0 rgb(249, 249, 249);
     box-shadow: 3px 3px 0 rgb(218, 218, 218);
-    color: #01c928 !important;
+    color: #800040 !important;
+    font-weight: bold;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; // remove the gap so it doesn't close
 }
 
 

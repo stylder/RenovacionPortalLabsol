@@ -51,7 +51,7 @@
                 </div>
             </div>
             <!-- Buscador -->
-            <div class="row">
+            {{--<div class="row">
                 <div class="col-md-offset-8 col-md-3">
                     <script>
                         (function () {
@@ -69,7 +69,7 @@
                 <div class="col-md-1">
                     <a class=" btn btn-default" href="mailto:contacto@cozcyt.gob.mx " target="_blank"> Contacto</a>
                 </div>
-            </div>
+            </div>--}}
 
             <!-- Menu-->
             <div class="row">
@@ -155,6 +155,35 @@
                                     </ul>
 
                                 </li>
+
+                                <li class="dropdown">
+                                    <a  href="mailto:contacto@cozcyt.gob.mx " target="_blank">Contacto
+                                    </a>
+                                </li>
+
+                                <li class="dropdown">
+                                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">Dropdown <b class="caret"></b></a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="#">2-level Dropdown <i class="icon-arrow-right"></i></a>
+                                            <ul class="dropdown-menu sub-menu">
+                                                <li><a href="#">Action</a></li>
+                                                <li><a href="#">Another action</a></li>
+                                                <li><a href="#">Something else here</a></li>
+                                                <li class="divider"></li>
+                                                <li class="nav-header">Nav header</li>
+                                                <li><a href="#">Separated link</a></li>
+                                                <li><a href="#">One more separated link</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Another action</a></li>
+                                        <li><a href="#">Something else here</a></li>
+                                        <li class="divider"></li>
+                                        <li class="nav-header">Nav header</li>
+                                        <li><a href="#">Separated link</a></li>
+                                        <li><a href="#">One more separated link</a></li>
+                                    </ul>
+                                </li>
                             </ul>
 
                         </div>
@@ -162,6 +191,8 @@
 
                 </nav>
             </div>
+
+
 
         @yield('contenido')
 
@@ -174,8 +205,8 @@
                 <footer class="text-center">
                     <div class="col-xs-12">
                         <ul class="social-network social-circle">
-                            <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="www.facebook.com/Consejo-Zacatecano-de-Ciencia-Tecnología-e-Innovación-235013703220333" target="_blank" class="icoFacebook" title="Facebook" ><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://twitter.com/COZCYT" target="_blank" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
                             <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
                             <li><a href="#" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a></li>
                             <li><a href="#" class="icoYelp" title="Yelp"><i class="fa fa-yelp"></i></a></li>
